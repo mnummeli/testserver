@@ -1,0 +1,21 @@
+{
+    "name": "testserver",
+    "version": "1.0.0",
+    "description": "Test server with Express",
+    "main": "index.js",
+    "scripts": {
+        "prestart": "npm install",
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "test",
+        "express"
+    ],
+    "author": "Mikko Nummelin",
+    "repository": "git://none",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3"
+    }
+}
